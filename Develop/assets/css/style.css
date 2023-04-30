@@ -39,6 +39,7 @@ header {
     header h1 .seo {
         color: #d9dcd6;
     }
+/* header ends */
     
 /* Top right nav menu / list inline */
 nav{        
@@ -54,6 +55,8 @@ li {
   display: inline-block;
   margin-left: 25px;
   }
+/* Nav Menu End */
+
 
 /* background image */
 #bgimg {
@@ -63,6 +66,8 @@ li {
     object-fit: cover;
     background-position: center;
 }
+/* background image ends */
+
 
 /* Menu on right side of screen */
 .benefits {
@@ -90,6 +95,8 @@ h2 {
     margin: 5px;
     text-align: center
      }
+
+/* aside ends */
     
 /* 3 section articles */
 article {    
@@ -121,6 +128,7 @@ h3 {
     float: right;
     margin-left: 25px;
 }
+/* Section Ends */
 
 /* footer */  
 footer {
@@ -133,3 +141,4 @@ footer {
 footer h4 {
     font-size: 20px;
 }
+/* footer ends */
