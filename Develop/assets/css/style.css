@@ -4,10 +4,25 @@
     margin: 0;
 }
 
+/* anchor font color */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* paragraph font / margin */
+p {
+    font-size: 16px
+    ;
+    margin-bottom: 25px
+}
+
+/* body background */
 body {
     background-color: #d9dcd6;
 }
 
+/* header font color, h1 inline / size */   
 header {
     font-size: 25px;
     padding: 25px;
@@ -25,8 +40,7 @@ header {
         color: #d9dcd6;
     }
     
-
-
+/* Top right nav menu / list inline */
 nav{        
     padding-top: 15px;
     margin-right: 25px;
@@ -36,25 +50,12 @@ nav{
     margin-top: -80px;
 }
 
-
-
 li {
   display: inline-block;
   margin-left: 25px;
   }
 
-
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px
-    ;
-    margin-bottom: 25px
-}
-
+/* background image */
 #bgimg {
     height: 800px;
     width: 100%;
@@ -63,33 +64,7 @@ p {
     background-position: center;
 }
 
-
-article {    
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    width:76%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-    display: inline-block;
-}
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
+/* Menu on right side of screen */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -100,83 +75,54 @@ article {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
     color: #ffffff;
-    
-    
-}
+    }
 
 
-h2 {
-    font-size: 20px;
-    margin: 5px;
-    text-align: center
-    
-    
-}
-#aside img {    
+aside img {    
     display: block;
     margin: 10px auto;
     max-width: 150px;
     margin-bottom: 10px;
     }
 
-
-.search-engine-optimization {
+h2 {
+    font-size: 20px;
+    margin: 5px;
+    text-align: center
+     }
+    
+/* 3 section articles */
+article {    
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    
-    
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
+    width:76%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    display: inline-block;
 }
 
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+article img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h3 {
+h3 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h3 {
-    margin-bottom: 20px;
-    font-size: 36px;
+.float-left {
+    float: left;
+    margin-right: 25px;
 }
 
-.social-media-marketing h3 {
-    margin-bottom: 20px;
-    font-size: 36px;
+.float-right {
+    float: right;
+    margin-left: 25px;
 }
 
-
-  
+/* footer */  
 footer {
     margin-top: 15px;
     clear: both;
