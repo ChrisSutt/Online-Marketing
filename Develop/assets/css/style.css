@@ -99,8 +99,9 @@ h2 {
 /* aside ends */
     
 /* 3 section articles */
-article {    
-    margin-bottom: 20px;
+article {
+    margin-left: 25px;
+    margin-bottom:25px; 
     padding: 50px;
     height: 300px;
     width:76%;
